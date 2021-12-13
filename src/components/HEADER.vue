@@ -1,14 +1,18 @@
 <template>
-  <header class="">
-
+  <header>
+    <!-- logo -->
     <div class="container">
       <div class="logo">
         <img src="../assets/img/logo-default-slim.png" alt="">
       </div>
     </div>
-    <div class="line">
+    <!-- /logo -->
 
-    </div>
+    <!-- line -->
+    <div class="line"></div>
+    <!-- /line -->
+
+    <!-- nav-menu -->
     <div class="container">
       <nav>
         <ul>
@@ -20,6 +24,7 @@
         </ul>
       </nav>
     </div>
+    <!-- /nav-menu -->
 
   </header>
 </template>
@@ -78,7 +83,6 @@ export default {
 @import "../assets/style/vars.scss";
 @import "../assets/style/generals.scss";
 header{
-  height: 90px;
   width: 100%;
   .container{
 
@@ -94,7 +98,6 @@ header{
       ul{
         list-style: none;
         padding: 0;
-        marrgin: 0;
         display: flex;
         justify-content: start;
         align-items: flex-start;
