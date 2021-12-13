@@ -2,21 +2,35 @@
 <section>
    <div class="container postGallery">
     <div class="row">
-      <!-- postCard -->
-      <div class="postCard col-4">
-        <img src="" alt="">
-      </div>
-      <!-- /postCard -->
 
       <!-- postCard -->
       <div class="postCard col-4">
-        <img src="" alt="">
+        <img src="../assets/img/blog-46.jpg" alt="how">
       </div>
       <!-- /postCard -->
-      
       <!-- postCard -->
       <div class="postCard col-4">
-        <img src="" alt="">
+        <img src="../assets/img/blog-46.jpg" alt="how">
+      </div>
+      <!-- /postCard -->
+      <!-- postCard -->
+      <div class="postCard col-4">
+        <img src="../assets/img/blog-46.jpg" alt="how">
+      </div>
+      <!-- /postCard -->
+      <!-- postCard -->
+      <div class="postCard col-4">
+        <img src="../assets/img/blog-46.jpg" alt="how">
+      </div>
+      <!-- /postCard -->
+      <!-- postCard -->
+      <div class="postCard col-4">
+        <img src="../assets/img/blog-46.jpg" alt="how">
+      </div>
+      <!-- /postCard -->
+      <!-- postCard -->
+      <div class="postCard col-4">
+        <img src="../assets/img/blog-46.jpg" alt="how">
       </div>
       <!-- /postCard -->
     </div>
@@ -37,11 +51,14 @@ export default {
     .postGallery{
     background-color: red;
     min-height: 200px;
-    .postCard{
-      min-height: 250px;
-      background-color: salmon;
-      border: 5px solid #F7F7F7;
-    }
+      .postCard{
+        background-color: salmon;
+        border: 5px solid #F7F7F7;
+        padding: 0;
+        img{
+          width: 100%;
+        }
+      }
   }
   }
 </style>
