@@ -1,0 +1,21 @@
+@import "./vars.scss";
+@import '~bootstrap/scss/bootstrap';
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.line{
+  width: 100vw;
+  height: 1px;
+  background-color: grey;
+}
+
+.active{
+  color: $main-color;
+}
+
+.disactive{ 
+  color: $title-color;
+}
