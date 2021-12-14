@@ -41,6 +41,17 @@
 
     </div>
 
+    <div class="tags">
+      <h6>tags</h6>
+      <div class="tags-box">
+        <button type="button" class="btn btn-dark">design</button>
+        <button type="button" class="btn btn-dark">brands</button>
+        <button type="button" class="btn btn-dark">video</button>
+        <button type="button" class="btn btn-dark">business</button>
+        <button type="button" class="btn btn-dark">travel</button>
+      </div>
+    </div>
+
   </section>
 </template>
 
@@ -75,8 +86,20 @@ section{
   .ig-grid{
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 20px;
     img{
       width: calc(100% / 3);
+    }
+  }
+
+  .tags{
+    .tags-box{
+      button{
+        font-size: 12px;
+        margin-right: 5px;
+        text-transform: uppercase;
+        width: calc((100% / 5) - 5px);
+      }
     }
   }
   h6{
