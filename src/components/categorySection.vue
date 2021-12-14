@@ -39,6 +39,7 @@ export default {
       height: 90px;
       i{
         color: black;
+        cursor: pointer;
       }
       button{
         width: 16%;
