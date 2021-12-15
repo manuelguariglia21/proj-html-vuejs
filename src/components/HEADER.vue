@@ -19,9 +19,19 @@
       <nav>
         <ul>
 
-          <li v-for="(item, index) in menu" :key="index"><a :href="item.link">
-            <span :class="{'active' : item.active === true, 'disactive' : item.active === false}">{{item.page}}</span>
-            </a></li>
+          <li 
+          v-for="(item, index) in menu"
+          :key="index"
+          @click="isActive(item)"
+          >
+            <a :href="item.link">
+              <span 
+              :class="{'active' : item.active === true, 'disactive' : item.active === false}"
+              >
+              {{item.page}}
+              </span>
+            </a>
+          </li>
 
         </ul>
         <div class="search">
@@ -83,10 +93,18 @@ export default {
           active: false,
         },
       ],
+
+      activeItem: ' ',
     }
   },
   methods: {
-      
+      isActive(item){
+        this.activeItem = item;
+        for(let i = 0; i < this.menu.length; i++){
+          this.menu[i].active = false;
+        }
+        this.activeItem.active = true;
+      }
     }
 }
 </script>
