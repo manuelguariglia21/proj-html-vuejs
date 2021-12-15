@@ -1,6 +1,7 @@
 <template>
   <footer>
-    <div class="top-footer container">
+    <section class="top-footer">
+      <div class="container">
       <div class="row">
 
         <div class="about col-3">
@@ -107,6 +108,56 @@
         </div>
       </div>
     </div>
+    </section>
+    
+
+    <div class="bottom-footer">
+      <div class="container">
+
+        <div class="foot-logo">
+          <img src="../assets/img/logo-footer.png" alt="">
+          <span>&copy;Copiright 2020. All Rights Reserved.</span>
+        </div>
+
+        <div class="foot-menu">
+          <ul>
+            <li>
+              <a href="#">
+                <span>
+                  <i class="fas fa-chevron-right"></i>
+                  FAQ's
+                </span>
+              </a>
+            </li>
+            
+            <li>
+              <a href="#">
+                <span>
+                  <i class="fas fa-chevron-right"></i>
+                  Sitemap
+                </span>
+              </a>
+            </li>
+            
+            <li>
+              <a href="#">
+                <span>
+                  <i class="fas fa-chevron-right"></i>
+                  Contact Us
+                </span>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+      <div class="foot-up">
+        <a href="#">
+          <i class="fas fa-chevron-up"></i>
+        </a>
+      </div>
+    </div>
   </footer>
 </template>
 
@@ -119,10 +170,10 @@ export default {
 <style lang="scss">
 @import "../assets/style/vars.scss";
 @import "../assets/style/generals.scss";
-footer{
+.top-footer{
   width: 100%;
   background-color: #404040;
-  .top-footer{
+  .container{
     padding-top: 50px;
     .row{
 
@@ -205,4 +256,67 @@ footer{
       }
     }
   }
+
+.bottom-footer{
+  width: 100%;
+  background-color: #1C2023;
+  min-height: 90px;
+  position: relative;
+  .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 90px;
+    .foot-logo{
+      img{
+        width: 80px;
+        margin-right: 15px;
+      }
+      span{
+        font-size: 12px;
+        color: #888888;
+      }
+    }
+
+    .foot-menu{
+      ul{
+        list-style: none;
+        li{
+          display: inline;
+          margin-right: 5px;
+          a{
+            text-decoration: none;
+            span{
+              color: #888888;
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .foot-up{
+      position: absolute;
+      bottom: 0;
+      right: 5px;
+      height: 50px;
+      width: 50px;
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px;
+      background-color: #888888;
+
+      a{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        i{
+          color: white;
+        }
+      }
+
+    }
+}
 </style>
