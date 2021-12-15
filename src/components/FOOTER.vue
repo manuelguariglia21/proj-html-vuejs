@@ -94,16 +94,16 @@
           </h6>
 
           <div class="tags-box">
-              <button type="button" class="btn btn-dark">design</button>
-              <button type="button" class="btn btn-dark">brands</button>
-              <button type="button" class="btn btn-dark">video</button>
-              <button type="button" class="btn btn-dark">business</button>
-              <button type="button" class="btn btn-dark">travel</button>
-              <button type="button" class="btn btn-dark">design</button>
-              <button type="button" class="btn btn-dark">brands</button>
-              <button type="button" class="btn btn-dark">video</button>
-              <button type="button" class="btn btn-dark">business</button>
-              <button type="button" class="btn btn-dark">travel</button>
+              <button type="button" class="btn btn-porto radius">design</button>
+              <button type="button" class="btn btn-porto radius ">brands</button>
+              <button type="button" class="btn btn-porto radius">video</button>
+              <button type="button" class="btn btn-porto radius">business</button>
+              <button type="button" class="btn btn-porto radius">travel</button>
+              <button type="button" class="btn btn-porto radius">design</button>
+              <button type="button" class="btn btn-porto radius">brands</button>
+              <button type="button" class="btn btn-porto radius">video</button>
+              <button type="button" class="btn btn-porto radius">business</button>
+              <button type="button" class="btn btn-porto radius">travel</button>
           </div>
         </div>
       </div>
@@ -182,14 +182,16 @@ export default {
           color: white
         }
         i, .more, .foot-date{
-          font-size: 12px;
+          font-size: 10px;
         }
         .foot-title{
           font-weight: bolder;
           text-transform: uppercase;
+          font-size: 14px;
         }
         p{
           color: #888888;
+          font-size: 12px;
           a{
             text-decoration: none;
           }
@@ -204,7 +206,7 @@ export default {
               width: calc(100% - 90px);
               .post-desc{
               color: white;
-              font-weight: bolder;
+              font-weight: 500;
 
               }
             }
@@ -250,6 +252,7 @@ export default {
             .tags-box{
               button{
                 margin: 2px;
+                border-radius: 5px;
               }
             }
           }

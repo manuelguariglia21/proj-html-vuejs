@@ -39,7 +39,13 @@ body{
     color: white;
     background-color: #212529CC;
   }
-
+  &.radius{
+    font-size: .7vw;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+    border-radius: 30px;
+  }
 }
 
 //OVERLAY

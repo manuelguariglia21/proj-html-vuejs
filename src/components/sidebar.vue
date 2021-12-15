@@ -44,11 +44,11 @@
     <div class="tags">
       <h6>tags</h6>
       <div class="tags-box">
-        <button type="button" class="btn btn-dark">design</button>
-        <button type="button" class="btn btn-dark">brands</button>
-        <button type="button" class="btn btn-dark">video</button>
-        <button type="button" class="btn btn-dark">business</button>
-        <button type="button" class="btn btn-dark">travel</button>
+        <button type="button" class="btn btn-porto radius">design</button>
+        <button type="button" class="btn btn-porto radius">brands</button>
+        <button type="button" class="btn btn-porto radius">video</button>
+        <button type="button" class="btn btn-porto radius">business</button>
+        <button type="button" class="btn btn-porto radius">travel</button>
       </div>
     </div>
 
@@ -89,17 +89,6 @@ section{
     margin-bottom: 20px;
     img{
       width: calc(100% / 3);
-    }
-  }
-
-  .tags{
-    .tags-box{
-      button{
-        font-size: 12px;
-        margin-right: 5px;
-        text-transform: uppercase;
-        width: calc((100% / 5) - 5px);
-      }
     }
   }
   h6{
