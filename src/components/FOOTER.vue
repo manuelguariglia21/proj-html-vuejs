@@ -1,6 +1,16 @@
 <template>
   <footer>
     <section class="top-footer">
+
+      <!-- get in touch -->
+      <div class="get-in-touch">
+          <div class="triangle"></div>
+          <div class="rectangle">
+            <span>Get in Touch</span>
+          </div>
+      </div>
+      <!-- /get in touch -->
+
       <div class="container">
       <div class="row">
 
@@ -106,6 +116,7 @@
               <button type="button" class="btn btn-porto radius">travel</button>
           </div>
         </div>
+
       </div>
     </div>
     </section>
@@ -170,9 +181,34 @@ export default {
 <style lang="scss">
 @import "../assets/style/vars.scss";
 @import "../assets/style/generals.scss";
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 .top-footer{
   width: 100%;
   background-color: #404040;
+  position: relative;
+  .get-in-touch{
+    display: flex;
+    position: absolute;
+    bottom: calc(100% - 30px);
+    left: 10%;
+    .triangle {
+      width: 0;
+      height: 0;
+      border-bottom: 20px solid #00517D;
+      border-left: 10px solid transparent;
+    }
+    .rectangle{
+      font-size: 1.5vw;
+      color: white;
+      font-family: Shadows Into Light,sans-serif;
+      height: 50px;
+      width: 150px;
+      background-color: $main-color;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
   .container{
     padding-top: 50px;
     .row{

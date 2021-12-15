@@ -24,6 +24,7 @@ export default {
 <style lang="scss">
 @import "./assets/style/vars.scss";
 @import "./assets/style/generals.scss";
+
 #app {
   color: $main-color;
 }
