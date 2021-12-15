@@ -156,6 +156,11 @@
                     Tips to help You Quickly Prepare your Lunch
                   </p>
                 </div>
+                <div class="subtitle">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur.
+                  </p>
+                </div>
               </div>
             </div>
             <img src="../assets/img/blog-66.jpg" alt="featured">

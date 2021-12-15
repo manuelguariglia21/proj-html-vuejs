@@ -170,27 +170,9 @@ export default {
         background-color: salmon;
         border: 5px solid #F7F7F7;
         padding: 0;
-        cursor: pointer;
         
         img{
           width: 100%;
-        }
-        .overlay{
-          &:hover{
-            .text-area{
-              .subtitle{
-                visibility: visible;
-              }
-            }
-          }
-          .text-area{
-            display: flex;
-            flex-direction: column;
-            justify-content: end;
-            .subtitle{
-              visibility: collapse;
-            }
-          }
         }
       }
   }
