@@ -1,4 +1,6 @@
 <template>
+<section>
+  <topHeader />
   <header>
     <!-- logo -->
     <div class="container">
@@ -22,16 +24,26 @@
             </a></li>
 
         </ul>
+        <div class="search">
+          <a href="#">
+            <i class="fas fa-search"></i>
+          </a>
+        </div>
       </nav>
     </div>
     <!-- /nav-menu -->
 
   </header>
+</section>
 </template>
 
 <script>
+import topHeader from './topHeader.vue'
 export default {
   name: 'HEADER',
+  components: {
+   topHeader,
+  },
   data(){
     return{
       menu: [
@@ -94,13 +106,16 @@ header{
     }
 
     nav{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
       margin-top: 15px;
       ul{
         list-style: none;
         padding: 0;
         display: flex;
         justify-content: start;
-        align-items: flex-start;
+        align-items: center;
         li{
           padding-left: 25px;
           &:first-of-type{
@@ -112,6 +127,15 @@ header{
               text-transform: uppercase;
               font-weight: bolder; 
             }
+          }
+        }
+      }
+      .search{
+        border-left: 2px solid #888888;
+        padding-left: 25px;
+        a{
+          i{
+            color: #404040;
           }
         }
       }
