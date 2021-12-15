@@ -118,8 +118,8 @@ header{
 
     .logo{
       img{
-        width: 150px;
-        padding: 15px 0;
+        width: 100px;
+        padding: 25px 0;
       }
     }
 
@@ -127,16 +127,19 @@ header{
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-top: 15px;
+      margin: 15px 0;
+      font-size: 14px;
       ul{
         list-style: none;
         padding: 0;
         display: flex;
         justify-content: start;
         align-items: center;
+        margin-bottom: 0;
         li{
-          padding-left: 25px;
-          &:first-of-type{
+          padding-right: 20px;
+          height: 100%;
+          &:last-of-type{
             padding-left: 0;
           }
           a{

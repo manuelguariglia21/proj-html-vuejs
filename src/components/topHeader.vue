@@ -57,25 +57,30 @@ section{
   width: 100%;
   background-color: $main-color;
   color: white;
-  height: 90px;
-  line-height: 90px;
+  font-weight: 300;
   .container{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    padding: 15px 0;
+    p{
+      margin-bottom: 0;
+    }
   }
   .header-top-menu{
     ul{
       display: flex;
+      margin-bottom: 0;
       li{
+        font-size: 14px;
         list-style: none;
-        margin-right: 15px;
+        margin-right: 20px;
         a{
           text-decoration: none;
           span{
             color: white;
             text-transform: uppercase;
-            font-weight: 700;
+            font-weight: 500;
           }
         }
       }

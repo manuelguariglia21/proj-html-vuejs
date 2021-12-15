@@ -169,7 +169,8 @@ export default {
           font-size: 16px;
         }
         .post-desc{
-          color: black;
+          font-size: 12px;
+          color: #888888;
           line-height: 20px;
         }
         .info-box{

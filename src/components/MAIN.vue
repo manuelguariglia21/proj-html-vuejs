@@ -23,7 +23,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
 main{
   width: 100%;
 }
