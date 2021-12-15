@@ -145,7 +145,21 @@
       <div class="featured col-4">
         <div class="featured-posts">
           <h6>featured post</h6>
-          <img src="../assets/img/blog-66.jpg" alt="featured">
+          <div class="image-post">
+            <div class="overlay">
+              <div class="text-area">
+                <div class="btn category-tag">
+                  <span>recipes</span>
+                </div>
+                <div class="title">
+                  <p>
+                    Tips to help You Quickly Prepare your Lunch
+                  </p>
+                </div>
+              </div>
+            </div>
+            <img src="../assets/img/blog-66.jpg" alt="featured">
+          </div>
         </div>
         <div class="featured-author">
           <h6>featured author</h6>
@@ -211,8 +225,11 @@ export default {
 
   .featured{
     .featured-posts{
-      img{
-        width: 100%;
+      .image-post{
+        position: relative;
+        img{
+          width: 100%;
+        }
       }
     }
     .featured-author{

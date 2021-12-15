@@ -4,17 +4,16 @@
     <div class="container">
 
       <i class="fas fa-chevron-left"></i>
-
-      <button type="button" class="btn btn-dark">Dark</button>
       
       
-      <button type="button" class="btn btn-dark">Dark</button>
+      <button type="button" class="btn btn-porto">gadgets</button>
+      <button type="button" class="btn btn-porto">photography</button>
+      <button type="button" class="btn btn-porto">lifestyle</button>
+      <button type="button" class="btn btn-porto">fashion</button>
+      <button type="button" class="btn btn-porto">recipes</button>
+      <button type="button" class="btn btn-porto">travel</button>
       
-      <button type="button" class="btn btn-dark">Dark</button>
       
-      <button type="button" class="btn btn-dark">Dark</button>
-      
-      <button type="button" class="btn btn-dark">Dark</button>
 
       <i class="fas fa-chevron-right"></i>
     </div>
@@ -38,7 +37,7 @@ export default {
       align-items: center;
       height: 90px;
       i{
-        color: black;
+        color: #404040;
         cursor: pointer;
       }
       button{
