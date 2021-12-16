@@ -287,6 +287,7 @@ export default {
           .categories{
             .tags-box{
               button{
+                background-color: black;
                 margin: 2px;
                 border-radius: 5px;
               }
