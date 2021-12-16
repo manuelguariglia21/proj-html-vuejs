@@ -152,7 +152,7 @@ header{
         }
       }
       .search{
-        border-left: 2px solid #888888;
+        border-left: 2px solid #EDEDED;
         padding-left: 25px;
         a{
           i{

@@ -67,9 +67,10 @@ export default {
 section{
   .last-twitter{
     .tweet{
+      font-size: 14px;
       display: flex;
       i{
-        font-size: 25px;
+        font-size: 20px;
         color: black;
         margin-right: 15px;
       }

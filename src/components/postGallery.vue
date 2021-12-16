@@ -162,8 +162,8 @@ export default {
   section{
     width: 100%;
     background-color: #F7F7F7;
+    padding: 50px 0;
     .postGallery{
-    background-color: red;
     min-height: 200px;
       .postCard{
         position: relative;

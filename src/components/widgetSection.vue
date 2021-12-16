@@ -4,7 +4,7 @@
     <div class="row">
       <!-- popular post -->
       <div class="popular-recent-post col-4">
-            <h6>popular post</h6>
+            <h6>popular posts</h6>
             <ul>
 
               <!-- post -->
@@ -73,7 +73,7 @@
 
       <!-- recent post -->
       <div class="popular-recent-post col-4">
-            <h6>recent post</h6>
+            <h6>recent posts</h6>
             <ul>
 
               <!-- post -->
@@ -144,7 +144,7 @@
       <!-- featured post -->
       <div class="featured col-4">
         <div class="featured-posts">
-          <h6>featured post</h6>
+          <h6>featured posts</h6>
           <div class="image-post">
             <div class="overlay">
               <div class="text-area">
@@ -169,7 +169,9 @@
         <div class="featured-author">
           <h6>featured author</h6>
           <a href="#">
-                  <img src="../assets/img/avatar.jpg" alt="">
+                  <div class="author-image">
+                    <img src="../assets/img/avatar.jpg" alt="">
+                  </div>
                   <div class="author-description">
                     <span class="author-title">Jhon Doe</span>
                     <p class="author-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, repellat.</p>
@@ -190,6 +192,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "../assets/style/vars.scss";
+@import "../assets/style/generals.scss";
   .widgetSection{
     margin-top: 50px;
     .popular-recent-post{
@@ -212,13 +216,13 @@ export default {
 
             .post-description{
               .post-title{
-              color: black;
-              font-size: 15px;
+              color: $title-color;
+              font-size: 12px;
 
               }
               .post-date{
               color: #978F9B;
-              font-size: 14px;
+              font-size: 11px;
               }
             }
           }
@@ -230,7 +234,9 @@ export default {
 
   .featured{
     .featured-posts{
+      margin-bottom: 50px;
       .image-post{
+        overflow: hidden;
         position: relative;
         img{
           width: 100%;
@@ -245,27 +251,33 @@ export default {
             position: relative;
             text-decoration: none;
             flex-wrap: wrap;
-        img{
-          width: 38%;
-          margin-right: 4%;
+        .author-image{
+          width: 35%;
+          margin-right: 5%;
+          img{
+            width: 100%;
+          }
         }
         .author-description{
-          width: 58%;
+          width: 60%;
           .author-title{
             font-size: 15px;
             font-weight: bolder;
-            color: black;
+            color: $title-color;
           }
           .author-desc{
             color: #978F9B;
+            font-weight: 300;
+            font-size: 14px;
           }
         }
       }
     }
   }
   h6{
-        color: black;
+        color: $title-color;
         text-transform: uppercase;
         font-weight: bolder;
+        font-size: 14px;
       }
 </style>

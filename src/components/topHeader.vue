@@ -64,6 +64,7 @@ section{
     align-items: center;
     padding: 15px 0;
     p{
+      font-size: 12px;
       margin-bottom: 0;
     }
   }
@@ -80,7 +81,7 @@ section{
           span{
             color: white;
             text-transform: uppercase;
-            font-weight: 500;
+            font-weight: 300;
           }
         }
       }

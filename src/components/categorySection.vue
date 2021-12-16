@@ -29,13 +29,12 @@ export default {
 
 <style lang="scss" scoped>
   .categorySection{
-    height: 90px;
     background-color: #0088CC;
+        padding: 50px 0;
     .container{
       display: flex;
       justify-content: space-between;
       align-items: center;
-      height: 90px;
       i{
         color: #404040;
         cursor: pointer;
@@ -43,6 +42,8 @@ export default {
       button{
         width: 16%;
         margin: 0 2%;
+        padding: 10px 15px;
+        font-size: 14px;
       }
     }
   }

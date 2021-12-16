@@ -184,7 +184,7 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 .top-footer{
   width: 100%;
-  background-color: #404040;
+  background-color: #212529;
   position: relative;
   .get-in-touch{
     display: flex;

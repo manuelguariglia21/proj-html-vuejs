@@ -148,38 +148,41 @@ export default {
         margin-top: 20px;
         .date{
           text-align: center;
-          font-size: 12px;
           font-weight: bolder;
           width: 100%;
           .day{
             background-color: #F7F7F7;
-            color: black;
+            color: $title-color;
             line-height: 50px;
           }
           .mounth{
             text-transform: uppercase;
             color: white;
             background-color: #212529;
+            padding: 5px;
+            font-size: 12px;
           }
         }
         .post-title{
-          color: black;
+          color: $title-color;
           font-weight: bolder;
           line-height: 50px;
-          font-size: 16px;
+          font-size: 20px;
         }
         .post-desc{
-          font-size: 12px;
+          font-size: 14px;
           color: #888888;
           line-height: 20px;
+          font-weight: 300;
         }
         .info-box{
             color: #888888;
-            font-size: 14px;
+            font-size: 13px;
             display: flex;
             justify-content: space-between;
             align-items: center;
             margin-bottom: 30px;
+            font-weight: 500;
           .left-side{
             display: flex;
             span{
